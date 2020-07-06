@@ -15,25 +15,22 @@ function init() {
   console.log("Running init()");
 
   d3.json("samples.json").then((data) => {
-    setTimeout(function () {
-      samples_data = data;
-      let selector = d3.select("#selDataset");
+    samples_data = data;
+    let selector = d3.select("#selDataset");
 
-      var sampleNames = samples_data["names"];
-      sampleNames.forEach((sample) => 
-      {
-        selector
-          .append("option")
-          .text(sample)
-          .property("value", sample);
-      });
+    var sampleNames = samples_data["names"];
+    sampleNames.forEach((sample) => 
+    {
+      selector
+        .append("option")
+        .text(sample)
+        .property("value", sample);
+    });
 
-      console.log(sampleNames);
+    console.log(sampleNames);
 
-      optionChanged(sampleNames[0]);
-
-    }, 5000)});
-    
+    optionChanged(sampleNames[0]);
+  }, 1000);
 }
 
 

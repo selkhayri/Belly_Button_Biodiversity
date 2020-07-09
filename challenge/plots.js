@@ -307,7 +307,8 @@ function bubbleChart() {
     marker: {
       color: otu_ids,
       size: values
-    }
+    },
+    text: sortedBacteria.map(item => item[1][1])
   };
   
   var data = [trace];

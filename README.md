@@ -20,10 +20,37 @@ The dashboard operates as follows:
 <img src="img/TestSubjectIDNo.png"></img>
 </p>
 
+2. The second element is the <code>Demographic Info</code> table. It displays basic statistical information about the current subject.
 
+<p align="center">
+<img src="img/DemographicInfo.png"></img>
+</p>
 
+3. The second element is the <code>Top 10 Bacterial Species</code> chart. This is a horizontal bar chart which shows the OTU numbers, the count for each OTU number. 
 
+<p align="center">
+<img src="img/Top10BacterialSpecies.png"></img>
+</p>
 
+If the mouse hovers over a bar, the count as well as the bacterial compostion of the OTU are displayed in a pop up.
+
+### TODO: Paste Screenshot of pop up label
+
+4. The third element is the <code>Operational Taxonomic Unit Distribution</code> bubble chart. While the second element displays the information for the top 10 bacterial species. The bubble chart displays all of the bacterial species information. The graph has the OTU numbers on the x-axis and the counts on the y-axis. Additionally, the sizes of the bubbles correspond to the count for the given OTU. 
+
+<p align="center">
+<img src="img/OperatuonalTaxonomicUnitDist.png"></img>
+</p>
+
+If the mouse hovers over a bubble, the count as well as the bacterial composition of the OTU are displayed in a pop up.
+
+### TODO: Paste Screenshot of pop up label
+
+5. The fourth and final element is the gauge chart. This chart displays the belly button washing frequency, the number of times the belly button is washed per week. It displays the information in two formats: numerically, showing the number of washings per week, and graphically, on a gauge, as is shown below.
+
+<p align="center">
+<img src="img/BellyButtonWashingFreq.png"></img>
+</p>
 
 
 

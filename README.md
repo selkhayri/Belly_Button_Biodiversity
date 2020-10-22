@@ -69,4 +69,4 @@ It displays the information in two formats: numerically, showing the number of w
 
 #### Live Link
 
-https://selkhayri.github.io/plotly-deployment/
+https://selkhayri.github.io/Belly_Button_Biodiversity/
